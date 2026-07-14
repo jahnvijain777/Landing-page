@@ -1,6 +1,13 @@
 # 🌐 Jahnvi's Portfolio(version v1)
 
-My personal portfolio website built using HTML, CSS, and JavaScript.
+My personal portfolio website built using:
+
+
+- ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+- ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+- ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+
 
 This project showcases my skills, education, and journey as a Computer Science student while I continue learning web development.
 
@@ -11,7 +18,6 @@ This project showcases my skills, education, and journey as a Computer Science s
 ## 📸 Preview
 
 <img width="1085" height="621" alt="image" src="https://github.com/user-attachments/assets/ce684b5f-6641-47ae-82aa-e7f9b0490e9b" />
-
 
 ## ✨ Features
 
