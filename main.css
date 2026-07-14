@@ -62,8 +62,7 @@ nav a {
     backdrop-filter: blur(14px);
     background-color: rgba(255, 255, 255, 0.04);
     color: rgba(245, 247, 255, 0.82);
-    -webkit-box-reflect: below 5px linear-gradient(transparent,transparent, rgba(0, 0, 0, 0.336));
-}
+    }
 
 nav a:hover{
     transform: translatey(-5px) scale(1.1);
@@ -74,12 +73,19 @@ nav a:hover{
 }
 
 .active {
-    background:
-        linear-gradient(120deg, transparent 0%, rgba(255, 255, 255, 0.14) 50%, transparent 100%) 120% 0 / 220% 100% no-repeat,
-        linear-gradient(135deg, var(--color), #4a6bcb);
+    background-color: rgb(0, 72, 255);
     color: #ffffff;
     border-color: rgba(255, 255, 255, 0.12);
-    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.04), 0 10px 24px rgba(48, 85, 180, 0.35);
+
+    text-shadow:
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 20px #4da3ff;
+
+    box-shadow:
+        0 0 10px rgba(6, 105, 255, 0.5),
+        0 0 20px rgba(6, 105, 255, 0.4),
+        0 0 40px rgba(6, 105, 255, 0.3);
 }
 
 main,
@@ -159,9 +165,14 @@ section {
 }
 
 .home-text span {
-    color: #0669ff;
+    color: #e2f0ff;
+    text-shadow:
+        0 0 5px #4da3ff,
+        0 0 10px #4da3ff,
+        0 0 20px #4da3ff,
+        0 0 40px #0669ff,
+        0 0 80px #0669ff;
 }
-
 
 
 .intro {
